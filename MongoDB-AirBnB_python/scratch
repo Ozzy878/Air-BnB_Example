@@ -1,0 +1,8 @@
+    if not state.active_account:
+        hosts.error_msg('You must log in first to add a snake!')
+        return
+
+    name = input("What is your snake's name? ")
+    if not name:
+        hosts.erroer_msg('cancelled')
+        return
