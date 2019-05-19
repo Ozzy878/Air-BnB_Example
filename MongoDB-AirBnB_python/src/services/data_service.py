@@ -1,5 +1,6 @@
-import datetime
 from typing import List
+
+import datetime
 import bson
 
 from data.bookings import Booking
@@ -20,12 +21,12 @@ def create_account(name: str, email: str) -> Owner:
 
 def find_account_by_email(email: str) -> Owner:
     owner = Owner.objects(email=email).first()
-
     return owner
 
 
-def register_cage(active_account: Owner, name, allow_dangerous,
-                  has_toys, carpeted, meters, price) -> Cage:
+def register_cage(active_account: Owner,
+                  name, allow_dangerous, has_toys,
+                  carpeted, meters, price) -> Cage:
     cage = Cage()
 
     cage.name = name
@@ -37,7 +38,6 @@ def register_cage(active_account: Owner, name, allow_dangerous,
 
     cage.save()
 
-    #  Order is very important
     account = find_account_by_email(active_account.email)
     account.cage_ids.append(cage.id)
     account.save()
@@ -47,12 +47,13 @@ def register_cage(active_account: Owner, name, allow_dangerous,
 
 def find_cages_for_user(account: Owner) -> List[Cage]:
     query = Cage.objects(id__in=account.cage_ids)
-    cages = list(query)  # Execute the query
+    cages = list(query)
 
     return cages
 
 
-def add_available_date(cage: Cage, start_date: datetime.datetime, days: int) -> Cage:
+def add_available_date(cage: Cage,
+                       start_date: datetime.datetime, days: int) -> Cage:
     booking = Booking()
     booking.check_in_date = start_date
     booking.check_out_date = start_date + datetime.timedelta(days=days)
@@ -65,8 +66,6 @@ def add_available_date(cage: Cage, start_date: datetime.datetime, days: int) -> 
 
 
 def add_snake(account, name, length, species, is_venomous) -> Snake:
-    owner = find_account_by_email(account.email)
-
     snake = Snake()
     snake.name = name
     snake.length = length
@@ -74,6 +73,7 @@ def add_snake(account, name, length, species, is_venomous) -> Snake:
     snake.is_venomous = is_venomous
     snake.save()
 
+    owner = find_account_by_email(account.email)
     owner.snake_ids.append(snake.id)
     owner.save()
 
@@ -87,15 +87,14 @@ def get_snakes_for_user(user_id: bson.ObjectId) -> List[Snake]:
     return list(snakes)
 
 
-def get_available_cages(checkin: datetime.datetime, checkout: datetime.datetime,
-                        snake: Snake) -> List[Cage]:
+def get_available_cages(checkin: datetime.datetime,
+                        checkout: datetime.datetime, snake: Snake) -> List[Cage]:
     min_size = snake.length / 4
+
     query = Cage.objects() \
         .filter(square_meters__gte=min_size) \
         .filter(bookings__check_in_date__lte=checkin) \
-        .filter(bookings__check_in_date__gte=checkout)
-
-    # $elemmatch    -->   This is used in mongodb
+        .filter(bookings__check_out_date__gte=checkout)
 
     if snake.is_venomous:
         query = query.filter(allow_dangerous_snakes=True)

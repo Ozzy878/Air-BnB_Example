@@ -1,3 +1,5 @@
+import datetime
+
 from colorama import Fore
 from dateutil import parser
 
@@ -168,11 +170,27 @@ def update_availability():
 def view_bookings():
     print(' ****************** Your bookings **************** ')
 
-    # TODO: Require an account
-    # TODO: Get cages, and nested bookings as flat list
-    # TODO: Print details for each
+    if not state.active_account:
+        error_msg('You must login first to register for a cage.')
+        return
 
-    print(" -------- NOT IMPLEMENTED -------- ")
+    cages = svc.find_cages_for_user(state.active_account)
+
+    bookings = [
+        (c, b)
+        for c in cages
+        for b in c.bookings
+        if b.booked_date is not None
+    ]
+
+    print('You have {} bookings.'.format(len(bookings)))
+    for c, b in bookings:
+        print(' * Cage: {} is booked on: {}, from {} for {} days.'.format(
+            c.name,
+            datetime.date(b.booked_date.year, b.booked_date.month, b.booked_date.day),
+            datetime.date(b.check_in_date.year, b.check_in_date.month, b.check_in_date.day),
+            b.duration_in_days
+        ))
 
 
 def exit_app():
