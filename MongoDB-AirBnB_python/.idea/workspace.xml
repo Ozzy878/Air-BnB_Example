@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0e9bd7-7a14-4c39-bd12-b646da248a16" name="Default Changelist" comment="" />
+    <list default="true" id="3d0e9bd7-7a14-4c39-bd12-b646da248a16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Example Concepts/inserting_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Example Concepts/querying.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Example Concepts/updating.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MongoDB-AirBnB_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MongoDB-AirBnB_python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program_guests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/program_guests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program_hosts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/program_hosts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/data_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/data_service.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/program_hosts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="211" selection-start-line="211" selection-end-line="211" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/program_guests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
-              <caret line="177" column="18" selection-start-line="175" selection-end-line="183" />
+            <state>
+              <caret selection-end-line="6" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -32,15 +36,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/program.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Example Concepts/inserting_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Example Concepts/querying.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Example Concepts/updating.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/owners.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/program_guests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/data_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2600">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -48,10 +119,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/data/bookings.py" />
         <option value="$PROJECT_DIR$/src/program_guests.py" />
         <option value="$PROJECT_DIR$/src/services/data_service.py" />
-        <option value="$PROJECT_DIR$/src/data/bookings.py" />
         <option value="$PROJECT_DIR$/src/program_hosts.py" />
+        <option value="$PROJECT_DIR$/src/program.py" />
+        <option value="$PROJECT_DIR$/inserting_example.py" />
+        <option value="$PROJECT_DIR$/src/Example Concepts/inserting_example.py" />
+        <option value="$PROJECT_DIR$/src/Example Concepts/querying.py" />
+        <option value="$PROJECT_DIR$/src/Example Concepts/updating.py" />
       </list>
     </option>
   </component>
@@ -70,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,12 +168,25 @@
               <item name="MongoDB-AirBnB_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="MongoDB-AirBnB_python" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Example Concepts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDB-AirBnB_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MongoDB-AirBnB_python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MongoDB-AirBnB_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MongoDB-AirBnB_python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,6 +197,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Air-BnB_Example\MongoDB-AirBnB_python\src\Example Concepts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,16 +254,19 @@
       <workItem from="1558232727870" duration="899000" />
       <workItem from="1558240314572" duration="3366000" />
       <workItem from="1558326317989" duration="483000" />
+      <workItem from="1558327012175" duration="91000" />
+      <workItem from="1558327127344" duration="2564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9734000" />
+    <option name="totallyTimeSpent" value="12389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117803834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -187,7 +283,7 @@
       <window_info anchor="bottom" id="GraphQL" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32719395" />
       <window_info anchor="bottom" id="Statistic" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
@@ -198,7 +294,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Cargo" order="3" />
       <window_info anchor="right" id="JuliaSciView" order="4" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Graph Database" order="6" />
       <window_info anchor="right" id="Json Parser" order="7" />
       <window_info anchor="right" id="make" order="8" />
@@ -210,19 +306,10 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MongoDB_AirBnB_python$program.coverage" NAME="program Coverage Results" MODIFIED="1558243581406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MongoDB_AirBnB_python$program.coverage" NAME="program Coverage Results" MODIFIED="1558328134992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/data/cages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/owners.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -266,16 +353,6 @@
       </provider>
     </entry>
     <entry file="file://D:/Programs/Anaconda3/Lib/site-packages/bson/code.py" />
-    <entry file="file://$PROJECT_DIR$/src/program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/bookings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -283,27 +360,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/program_hosts.py">
+    <entry file="file://$PROJECT_DIR$/src/program_guests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/program_guests.py">
+    <entry file="file://$PROJECT_DIR$/src/services/data_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="177" column="18" selection-start-line="175" selection-end-line="183" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/program_hosts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/data_service.py">
+    <entry file="file://$PROJECT_DIR$/src/data/owners.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state>
+          <caret column="2" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Example Concepts/inserting_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Example Concepts/querying.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Example Concepts/updating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

@@ -1,8 +1,6 @@
 import datetime
-
 from colorama import Fore
 from dateutil import parser
-
 from infrastructure.switchlang import switch
 import infrastructure.state as state
 import services.data_service as svc

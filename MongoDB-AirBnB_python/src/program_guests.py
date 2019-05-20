@@ -1,7 +1,5 @@
 import datetime
-
 from dateutil import parser
-
 from infrastructure.switchlang import switch
 import program_hosts as hosts
 import infrastructure.state as state

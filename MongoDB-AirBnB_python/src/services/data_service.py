@@ -1,8 +1,6 @@
 from typing import List
-
 import datetime
 import bson
-
 from data.bookings import Booking
 from data.cages import Cage
 from data.owners import Owner
